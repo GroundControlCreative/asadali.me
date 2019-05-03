@@ -1,0 +1,75 @@
+/* FONTS */
+@font-face {
+    font-family: 'Futura-Book';
+    src: url('../fonts/FuturaLT-Book.ttf');
+}
+@font-face {
+    font-family: 'Futura-Bold';
+    src: url('../fonts/FuturaLT-Bold.ttf');
+}
+/* GENERAL CSS*/
+body{
+	font-family: 'Futura-Book';
+}
+a.btn{
+    font-family: 'Futura-Bold';
+}
+p{
+    letter-spacing:0.05px;
+    font-size:16px;
+    line-height:24px;
+}
+h2{
+    font-family: 'Futura-Bold';
+    color:#ACB4BB;
+    font-size:18px;
+    line-height:24px;
+    letter-spacing:0.05px;
+}
+/* NAVBAR CSS */
+.navbar-dark .navbar-nav .nav-link{
+	font-size:14px;
+	line-height:19px;
+	letter-spacing:0.02px;
+    font-family: 'Futura-Bold';
+}
+.nav-btn{
+	border: 1px solid #FFFFFF;
+	border-radius: 3px;
+}
+/* HEADER CSS */
+.header-btn{
+    background-color:#0EA1BC;
+    margin-right:15px;
+}
+.header-gray{
+    background-color:rgba(255,255,255,0.3);
+}
+/* CASE STUDIES CSS*/
+
+.case-study span.h2{
+    font-size: 28px;
+    line-height: 39px;
+    letter-spacing: 0.03px;
+    max-width:100%;
+}
+.case-study p{
+    font-size: 18px;
+    letter-spacing: 0.02px;
+    line-height: 25px;
+    margin-bottom:1.65rem;
+}
+btn.visit-btn{
+    background-color:#0EA1BC;
+    letter-spacing: 0.05px;
+    font-family: 'Futura-Bold';
+    height: 50px!important;
+    line-height: 24px!important;
+}
+/* MEDIA QUERIES */
+@media (min-width: 992px){
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding-right: 1rem;
+		padding-left: 1rem;
+	}
+}
